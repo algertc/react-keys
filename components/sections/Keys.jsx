@@ -3,9 +3,9 @@ import keys from '../../data/keys'
 
 export default function Keys() {
     return (
-        <section className="py-14 md:py-20">
+        <section className="py-4 md:py-10">
             <div className="container">
-                <div className="grid grid-cols-1 lg:grid-cols-2 items-start gap-28 lg:gap-10 text-lg font-semibold">
+                <div className="grid grid-cols-1 lg:grid-cols-2 items-start gap-24 lg:gap-16 text-lg font-semibold">
                     {keys.map((key, i) => (
                         <KeyCard
                             key={i}

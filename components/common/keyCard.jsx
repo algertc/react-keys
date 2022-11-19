@@ -12,7 +12,7 @@ export default function keyCard({ title, downloadLocation, importCommand, keys }
                             {title}
                         </h2>
                     </div>
-                    <p className="text-neutral-400 font-mono select-all break-words">{keys}</p>
+                    <p className="text-neutral-400 overflow-scroll font-mono select-all break-words max-h-[25rem]">{keys}</p>
                 </div>
             </div>
             <CodeBlock command={importCommand} />
