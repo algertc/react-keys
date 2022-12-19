@@ -1,18 +1,17 @@
 {
     "defaultSeo": {
-        "title": "Charlie's PublicKey",
-        "description": "Charlie's public key description",
-        "canonical": "https://example.com"
+        "title": "Charlie Algert | Public Keys",
+        "description": "Import Charlie's GPG Keys",
+        "canonical": "https://keys.charliealgert.com"
     },
     "socialProfileJsonLd": {
         "type": "Person",
         "name": "Charlie Algert",
-        "url": "http://www.your-site.com",
+        "url": "http://keys.charliealgert.com/Portrait.png",
         "sameAs": [
-            "http://www.facebook.com/your-profile",
-            "http://instagram.com/yourProfile",
-            "http://www.linkedin.com/in/yourprofile",
-            "http://plus.google.com/your_profile"
+            "http://charliealgert.com",
+            "http://linkedin.com/in/charliealgert",
+            "http://www.linkedin.com/in/yourprofile"
         ]
     }
 }
